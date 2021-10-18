@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background: #ff9966;
+    background: -webkit-linear-gradient(to right, #5eff8e,  #66baff);
+    background: linear-gradient(to right, #5eff8e,  #66baff);
+    text-align: center;
+}
+.calculator {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, button {
+    border:none;
+    outline: none;
+    height: 150px;
+
+}
+input {
+    width: 603px;
+    font-size: 50px;
+    margin-bottom: -1px;
+    background: #333a4d;
+    color: #eee;
+    text-align: right;
+
+}
+button {
+    margin: -1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    background: #eee;
+    width: 150px;
+    color: #333a4d;
+
+}
+button:active {
+    background: #333a4d;
+    color: #eee;
+}
