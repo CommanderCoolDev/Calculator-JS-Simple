@@ -16,7 +16,11 @@ for (item of buttons) {
         } else if (btnText === '=') {
             input.value = eval(inputValue);
 
-        } else {
+        } else if (btnText === "M+" || btnText === "M-" || btnText === "MR") {
+            inputValue = 'Need to add this staff)))';
+            input.value = inputValue
+        }
+         else {
             inputValue += btnText;
             input.value = inputValue;
         }
