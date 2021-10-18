@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    height: 90vh;
+    height: 100vh;
     background: #ff9966;
     background: -webkit-linear-gradient(to right, #5eff8e,  #66baff);
     background: linear-gradient(to right, #5eff8e,  #66baff);
@@ -21,7 +21,7 @@ body {
 input, button {
     border:none;
     outline: none;
-    height: 150px;
+    height: 100px;
 
 }
 input {
